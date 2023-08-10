@@ -1,0 +1,15 @@
+{
+  "name": "book-swap",
+  "version": "1.0.0",
+  "description": "A book exchange application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Cagri Turkmen <cagritrkmn33@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}
