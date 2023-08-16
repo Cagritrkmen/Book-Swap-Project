@@ -1,0 +1,81 @@
+[[
+  "1",
+  "2",
+  "3"
+],{
+  "id": "4",
+  "username": "5",
+  "email": "6",
+  "password": "7",
+  "image": null,
+  "ownedBooks": "8"
+},{
+  "id": "9",
+  "username": "10",
+  "email": "11",
+  "password": "12",
+  "image": null,
+  "ownedBooks": "13"
+},{
+  "id": "14",
+  "username": "15",
+  "email": "16",
+  "password": "17",
+  "image": null,
+  "ownedBooks": "18"
+},"3278f36a-d799-49e7-ab23-60414f44ab2a","john","john@example.com","john123",[
+  "19",
+  "20"
+],"578fc88c-d64f-4edc-bdd2-300416d3a2b5","cagri","cagri@example.com","securepassword",[
+  "21"
+],"b938dcb9-c0bf-41f1-86c3-56fe0cbc9324","zeynep","zeynep@example.com","zeyno",[],{
+  "id": "22",
+  "title": "23",
+  "author": "24",
+  "genre": "25",
+  "owner": "26",
+  "isAvailable": false,
+  "reviews": "27",
+  "image": null,
+  "ownerHistory": "28"
+},{
+  "id": "29",
+  "title": "30",
+  "author": "31",
+  "genre": "25",
+  "owner": "26",
+  "isAvailable": false,
+  "reviews": "32",
+  "image": null,
+  "ownerHistory": "33"
+},{
+  "id": "34",
+  "title": "35",
+  "author": "36",
+  "genre": "25",
+  "owner": "37",
+  "isAvailable": false,
+  "reviews": "38",
+  "image": null,
+  "ownerHistory": "39"
+},"80df933d-148e-4eda-821b-77d529404958","Lord of the Rings","J.R.R. Tolkien","Fantasy",{
+  "id": "4",
+  "username": "5",
+  "email": "6",
+  "password": "7",
+  "image": null,
+  "ownedBooks": "8"
+},[],[
+  "26"
+],"d0f5f559-c640-49ad-9fb0-e97c0ed9c598","Harry Potter","J.K. Rowling",[],[
+  "26"
+],"9b93c93d-0b25-4856-b63c-ef788d3bf797","Game of Thrones","George R.R. Martin",{
+  "id": "9",
+  "username": "10",
+  "email": "11",
+  "password": "12",
+  "image": null,
+  "ownedBooks": "13"
+},[],[
+  "37"
+]]

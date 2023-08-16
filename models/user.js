@@ -1,11 +1,13 @@
+const uuid = require('uuid')
 class User {
-    constructor(username, email, password) {
+    constructor(id = uuid.v4(), username, email, password,image= null,ownedBooks= []) {
+        this.id = id
         this.username = username;
         this.email = email;
         this.password = password;
-        this.image = null;
-        this.ownedBooks = [];
-        
+        this.image = image;
+        this.ownedBooks = ownedBooks;
+
     }
 
 
@@ -28,13 +30,16 @@ class User {
         }
     }
     addReview(Book, review) {
-        if(Book.ownerHistory.includes(this)){
-            Book.reviews.push([this.username,review]);
+        if (Book.ownerHistory.includes(this)) {
+            Book.reviews.push([this.username, review]);
         }
-        else{
+        else {
             console.log("önceden sahiplenilmemiş kitaplara yorum yapılamaz.")
         }
-        
+
+    }
+    static create({ id, username, email, password,image, ownedBooks }) {
+        return new User(id, username, email, password,image,ownedBooks)
     }
 }
 module.exports = User;
