@@ -23,12 +23,12 @@
   "password": "17",
   "image": null,
   "ownedBooks": "18"
-},"3278f36a-d799-49e7-ab23-60414f44ab2a","john","john@example.com","john123",[
+},"5d616005-80e8-4d40-b92e-8fae76e5171b","john","john@example.com","john123",[
   "19",
   "20"
-],"578fc88c-d64f-4edc-bdd2-300416d3a2b5","cagri","cagri@example.com","securepassword",[
+],"7682f893-8081-4a4f-8ef9-1c61bf36d576","cagri","cagri@example.com","securepassword",[
   "21"
-],"b938dcb9-c0bf-41f1-86c3-56fe0cbc9324","zeynep","zeynep@example.com","zeyno",[],{
+],"4f9a4bdd-bf2c-4640-9235-e5d31b204e46","zeynep","zeynep@example.com","zeyno",[],{
   "id": "22",
   "title": "23",
   "author": "24",
@@ -58,7 +58,7 @@
   "reviews": "38",
   "image": null,
   "ownerHistory": "39"
-},"80df933d-148e-4eda-821b-77d529404958","Lord of the Rings","J.R.R. Tolkien","Fantasy",{
+},"0b561c99-29e4-4ad8-907e-ff28c687592a","Lord of the Rings","J.R.R. Tolkien","Fantasy",{
   "id": "4",
   "username": "5",
   "email": "6",
@@ -67,9 +67,9 @@
   "ownedBooks": "8"
 },[],[
   "26"
-],"d0f5f559-c640-49ad-9fb0-e97c0ed9c598","Harry Potter","J.K. Rowling",[],[
+],"bad20482-9e35-45b4-b14d-e477c9760590","Harry Potter","J.K. Rowling",[],[
   "26"
-],"9b93c93d-0b25-4856-b63c-ef788d3bf797","Game of Thrones","George R.R. Martin",{
+],"5ea84abb-b594-4234-a00b-b2247ab98032","Game of Thrones","George R.R. Martin",{
   "id": "9",
   "username": "10",
   "email": "11",

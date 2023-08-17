@@ -1,4 +1,6 @@
 const uuid = require('uuid')
+const Book = require('./book');
+
 class User {
     constructor(id = uuid.v4(), username, email, password,image= null,ownedBooks= []) {
         this.id = id
@@ -23,10 +25,15 @@ class User {
 
     }
     removeOwnedBook(book) {
-        book.updateAvailability(true);
-        const index = this.ownedBooks.indexOf(book);
-        if (index !== -1) {
-            this.ownedBooks.splice(index, 1);
+        if (book instanceof Book) {
+            book.updateAvailability(true);
+            book.ownerHistory.push(this); 
+            const index = this.ownedBooks.indexOf(book);
+            if (index !== -1) {
+                this.ownedBooks.splice(index, 1);
+            }
+        } else {
+            console.log('Hata: Geçersiz kitap nesnesi.');
         }
     }
     addReview(Book, review) {
