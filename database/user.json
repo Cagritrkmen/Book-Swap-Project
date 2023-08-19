@@ -23,59 +23,42 @@
   "password": "17",
   "image": null,
   "ownedBooks": "18"
-},"5d616005-80e8-4d40-b92e-8fae76e5171b","john","john@example.com","john123",[
+},"c85c29b7-8f2b-43d4-8d18-b70303916e00","john","john@example.com","john123",[
   "19",
   "20"
-],"7682f893-8081-4a4f-8ef9-1c61bf36d576","cagri","cagri@example.com","securepassword",[
+],"c1097b3c-a548-45fa-a494-536c6a5c5b06","cagri","cagri@example.com","securepassword",[
   "21"
-],"4f9a4bdd-bf2c-4640-9235-e5d31b204e46","zeynep","zeynep@example.com","zeyno",[],{
-  "id": "22",
-  "title": "23",
-  "author": "24",
-  "genre": "25",
-  "owner": "26",
+],"dfbe656d-6668-41a3-91eb-83ac96d8b43a","zeynep","zeynep@example.com","zeyno",[],{
+  "title": "22",
+  "author": "23",
+  "genre": "24",
+  "owner": "1",
   "isAvailable": false,
-  "reviews": "27",
+  "reviews": "25",
   "image": null,
-  "ownerHistory": "28"
+  "ownerHistory": "26"
 },{
-  "id": "29",
-  "title": "30",
-  "author": "31",
-  "genre": "25",
-  "owner": "26",
+  "title": "27",
+  "author": "28",
+  "genre": "24",
+  "owner": "1",
   "isAvailable": false,
-  "reviews": "32",
+  "reviews": "29",
   "image": null,
-  "ownerHistory": "33"
+  "ownerHistory": "30"
 },{
-  "id": "34",
-  "title": "35",
-  "author": "36",
-  "genre": "25",
-  "owner": "37",
+  "title": "31",
+  "author": "32",
+  "genre": "24",
+  "owner": "2",
   "isAvailable": false,
-  "reviews": "38",
+  "reviews": "33",
   "image": null,
-  "ownerHistory": "39"
-},"0b561c99-29e4-4ad8-907e-ff28c687592a","Lord of the Rings","J.R.R. Tolkien","Fantasy",{
-  "id": "4",
-  "username": "5",
-  "email": "6",
-  "password": "7",
-  "image": null,
-  "ownedBooks": "8"
-},[],[
-  "26"
-],"bad20482-9e35-45b4-b14d-e477c9760590","Harry Potter","J.K. Rowling",[],[
-  "26"
-],"5ea84abb-b594-4234-a00b-b2247ab98032","Game of Thrones","George R.R. Martin",{
-  "id": "9",
-  "username": "10",
-  "email": "11",
-  "password": "12",
-  "image": null,
-  "ownedBooks": "13"
-},[],[
-  "37"
+  "ownerHistory": "34"
+},"Lord of the Rings","J.R.R. Tolkien","Fantasy",[],[
+  "1"
+],"Harry Potter","J.K. Rowling",[],[
+  "1"
+],"Game of Thrones","George R.R. Martin",[],[
+  "2"
 ]]

@@ -1,7 +1,7 @@
 const uuid = require('uuid')
 class Book {
-    constructor(id = uuid.v4(),title, author, genre, isAvailable=true,reviews=[],image=null,ownerHistory=[]) {
-        this.id = id;
+    constructor(title, author, genre, isAvailable=true,reviews=[],image=null,ownerHistory=[]) {
+    
         this.title = title;
         this.author = author;
         this.genre = genre;
@@ -17,8 +17,8 @@ class Book {
     addDescription(description) {
         this.description = description;
     }
-    static create({ id, title, author, genre,isAvailable,reviews,image,ownerHistory }) {
-        return new Book(id, title, author, genre,isAvailable,reviews,image,ownerHistory)
+    static create({  title, author, genre,isAvailable,reviews,image,ownerHistory }) {
+        return new Book(title, author, genre,isAvailable,reviews,image,ownerHistory)
     }
 }
 module.exports = Book;

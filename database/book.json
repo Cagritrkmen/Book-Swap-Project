@@ -4,68 +4,64 @@
   "3",
   "4"
 ],{
-  "id": "5",
-  "title": "6",
-  "author": "7",
-  "genre": "8",
-  "owner": "9",
+  "title": "5",
+  "author": "6",
+  "genre": "7",
+  "owner": "8",
   "isAvailable": false,
-  "reviews": "10",
+  "reviews": "9",
   "image": null,
-  "ownerHistory": "11"
+  "ownerHistory": "10"
 },{
-  "id": "12",
-  "title": "13",
-  "author": "14",
-  "genre": "8",
-  "owner": "9",
+  "title": "11",
+  "author": "12",
+  "genre": "7",
+  "owner": "8",
   "isAvailable": false,
-  "reviews": "15",
+  "reviews": "13",
   "image": null,
-  "ownerHistory": "16"
+  "ownerHistory": "14"
 },{
-  "id": "17",
-  "title": "18",
-  "author": "19",
-  "genre": "20",
+  "title": "15",
+  "author": "16",
+  "genre": "17",
   "owner": null,
   "isAvailable": true,
-  "reviews": "21",
+  "reviews": "18",
   "image": null,
-  "ownerHistory": "22"
+  "ownerHistory": "19"
 },{
-  "id": "23",
-  "title": "24",
-  "author": "25",
-  "genre": "8",
-  "owner": "26",
+  "title": "20",
+  "author": "21",
+  "genre": "7",
+  "owner": "22",
   "isAvailable": false,
-  "reviews": "27",
+  "reviews": "23",
   "image": null,
-  "ownerHistory": "28"
-},"bad20482-9e35-45b4-b14d-e477c9760590","Harry Potter","J.K. Rowling","Fantasy",{
-  "id": "29",
-  "username": "30",
-  "email": "31",
-  "password": "32",
+  "ownerHistory": "24"
+},"Harry Potter","J.K. Rowling","Fantasy",{
+  "id": "25",
+  "username": "26",
+  "email": "27",
+  "password": "28",
   "image": null,
-  "ownedBooks": "33"
+  "ownedBooks": "29"
 },[],[
-  "9"
-],"0b561c99-29e4-4ad8-907e-ff28c687592a","Lord of the Rings","J.R.R. Tolkien",[],[
-  "9"
-],"ac6bde80-46c0-4993-9a09-c1a2b2d012c4","The Great Gatsby","F. Scott Fitzgerald","Classic",[],[],"5ea84abb-b594-4234-a00b-b2247ab98032","Game of Thrones","George R.R. Martin",{
-  "id": "34",
-  "username": "35",
-  "email": "36",
-  "password": "37",
+  "8"
+],"Lord of the Rings","J.R.R. Tolkien",[],[
+  "8"
+],"The Great Gatsby","F. Scott Fitzgerald","Classic",[],[],"Game of Thrones","George R.R. Martin",{
+  "id": "30",
+  "username": "31",
+  "email": "32",
+  "password": "33",
   "image": null,
-  "ownedBooks": "38"
+  "ownedBooks": "34"
 },[],[
-  "26"
-],"5d616005-80e8-4d40-b92e-8fae76e5171b","john","john@example.com","john123",[
+  "22"
+],"c85c29b7-8f2b-43d4-8d18-b70303916e00","john","john@example.com","john123",[
   "2",
   "1"
-],"7682f893-8081-4a4f-8ef9-1c61bf36d576","cagri","cagri@example.com","securepassword",[
+],"c1097b3c-a548-45fa-a494-536c6a5c5b06","cagri","cagri@example.com","securepassword",[
   "4"
 ]]

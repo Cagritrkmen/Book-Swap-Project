@@ -18,16 +18,19 @@ user1.addOwnedBook(book2)
 user1.addOwnedBook(book1)
 user2.addOwnedBook(book4)
 
+async function main() {
+    try {
+        await bookDatabase.save([book1, book2, book3, book4])
+        const books = await bookDatabase.load()
+        books.forEach(printBooks)
 
-bookDatabase.save([book1,book2,book3,book4])
-const books = bookDatabase.load()
-books.forEach(printBooks)
+        await userDatabase.save([user1, user2, user3])
+        const users = await userDatabase.load()
+        users.forEach(printUsersBook)
+    } catch (e) {
+        return console.log(e)
+    }
 
+}
 
-
-
-userDatabase.save([user1, user2])
-
-userDatabase.insert(user3)
-const users = userDatabase.load()
-users.forEach(printUsersBook)
+main()
