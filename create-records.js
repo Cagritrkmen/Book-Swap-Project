@@ -14,16 +14,17 @@ const user1 = User.create({ username: "john", email: 'john@example.com', passwor
 const user2 = User.create({ username: "cagri", email: 'cagri@example.com', password: "securepassword" });
 const user3 = User.create({ username: "zeynep", email: 'zeynep@example.com', password: "zeyno" });
 
-user1.addOwnedBook(book2)
 user1.addOwnedBook(book1)
-user2.addOwnedBook(book4)
+
+
+
+
 
 async function main() {
     try {
         await bookDatabase.save([book1, book2, book3, book4])
         const books = await bookDatabase.load()
         books.forEach(printBooks)
-
         await userDatabase.save([user1, user2, user3])
         const users = await userDatabase.load()
         users.forEach(printUsersBook)

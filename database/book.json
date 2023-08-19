@@ -4,64 +4,53 @@
   "3",
   "4"
 ],{
-  "title": "5",
-  "author": "6",
-  "genre": "7",
-  "owner": "8",
+  "id": "5",
+  "title": "6",
+  "author": "7",
+  "genre": "8",
+  "owner": "9",
   "isAvailable": false,
-  "reviews": "9",
+  "reviews": "10",
   "image": null,
-  "ownerHistory": "10"
+  "ownerHistory": "11"
 },{
-  "title": "11",
-  "author": "12",
-  "genre": "7",
-  "owner": "8",
-  "isAvailable": false,
-  "reviews": "13",
-  "image": null,
-  "ownerHistory": "14"
-},{
-  "title": "15",
-  "author": "16",
-  "genre": "17",
+  "id": "12",
+  "title": "13",
+  "author": "14",
+  "genre": "8",
   "owner": null,
   "isAvailable": true,
-  "reviews": "18",
+  "reviews": "15",
   "image": null,
-  "ownerHistory": "19"
+  "ownerHistory": "16"
 },{
-  "title": "20",
-  "author": "21",
-  "genre": "7",
-  "owner": "22",
-  "isAvailable": false,
-  "reviews": "23",
+  "id": "17",
+  "title": "18",
+  "author": "19",
+  "genre": "20",
+  "owner": null,
+  "isAvailable": true,
+  "reviews": "21",
   "image": null,
-  "ownerHistory": "24"
-},"Harry Potter","J.K. Rowling","Fantasy",{
-  "id": "25",
-  "username": "26",
-  "email": "27",
-  "password": "28",
+  "ownerHistory": "22"
+},{
+  "id": "23",
+  "title": "24",
+  "author": "25",
+  "genre": "8",
+  "owner": null,
+  "isAvailable": true,
+  "reviews": "26",
   "image": null,
-  "ownedBooks": "29"
+  "ownerHistory": "27"
+},"126e4043-784b-4739-b704-62d4a4f2078e","Harry Potter","J.K. Rowling","Fantasy",{
+  "id": "28",
+  "username": "29",
+  "email": "30",
+  "password": "31",
+  "ownedBooks": "32"
 },[],[
-  "8"
-],"Lord of the Rings","J.R.R. Tolkien",[],[
-  "8"
-],"The Great Gatsby","F. Scott Fitzgerald","Classic",[],[],"Game of Thrones","George R.R. Martin",{
-  "id": "30",
-  "username": "31",
-  "email": "32",
-  "password": "33",
-  "image": null,
-  "ownedBooks": "34"
-},[],[
-  "22"
-],"c85c29b7-8f2b-43d4-8d18-b70303916e00","john","john@example.com","john123",[
-  "2",
+  "9"
+],"aa851cd7-f0c0-4e64-b5cb-293fc6bca6e5","Lord of the Rings","J.R.R. Tolkien",[],[],"28775d95-7d06-4128-afc5-d5c2b237e382","The Great Gatsby","F. Scott Fitzgerald","Classic",[],[],"7ffd1858-cb0b-4517-9c58-073fc208511e","Game of Thrones","George R.R. Martin",[],[],"cd283e2a-922e-4c01-8971-13e468aec753","john","john@example.com","john123",[
   "1"
-],"c1097b3c-a548-45fa-a494-536c6a5c5b06","cagri","cagri@example.com","securepassword",[
-  "4"
 ]]

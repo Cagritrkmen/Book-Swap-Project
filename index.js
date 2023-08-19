@@ -10,13 +10,12 @@ const user1 = User.create({ username: "john", email: 'john@example.com', passwor
 
 
 
-
-
 async function main() {
     try {
-        let cagri = await userDatabase.findBy("username", "cagri")
-        cagri.addOwnedBook(book3)
-        await userDatabase.update(cagri)
+        let john = await userDatabase.findBy("username", "john")
+        john.addOwnedBook(book3)
+        //console.log(john.ownedBooks)
+        await userDatabase.update(john)
         let x = await userDatabase.load()
         x.forEach(printUsersBook)
     } catch (e) {

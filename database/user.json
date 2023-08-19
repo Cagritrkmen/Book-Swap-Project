@@ -7,58 +7,69 @@
   "username": "5",
   "email": "6",
   "password": "7",
-  "image": null,
   "ownedBooks": "8"
 },{
   "id": "9",
   "username": "10",
   "email": "11",
   "password": "12",
-  "image": null,
   "ownedBooks": "13"
 },{
   "id": "14",
   "username": "15",
   "email": "16",
   "password": "17",
-  "image": null,
   "ownedBooks": "18"
-},"c85c29b7-8f2b-43d4-8d18-b70303916e00","john","john@example.com","john123",[
+},"cd283e2a-922e-4c01-8971-13e468aec753","john","john@example.com","john123",[
   "19",
-  "20"
-],"c1097b3c-a548-45fa-a494-536c6a5c5b06","cagri","cagri@example.com","securepassword",[
+  "20",
   "21"
-],"dfbe656d-6668-41a3-91eb-83ac96d8b43a","zeynep","zeynep@example.com","zeyno",[],{
-  "title": "22",
-  "author": "23",
-  "genre": "24",
+],"a43167e6-b47f-47d4-abd6-f03edf16e20d","cagri","cagri@example.com","securepassword",[],"cd5ab98a-ac24-4bc3-9854-37d0634827ba","zeynep","zeynep@example.com","zeyno",[],{
+  "id": "22",
+  "title": "23",
+  "author": "24",
+  "genre": "25",
+  "owner": "26",
+  "isAvailable": false,
+  "reviews": "27",
+  "image": null,
+  "ownerHistory": "28"
+},{
+  "id": "29",
+  "title": "30",
+  "author": "31",
+  "genre": "32",
+  "owner": "33",
+  "isAvailable": false,
+  "reviews": "34",
+  "image": null,
+  "ownerHistory": "35"
+},{
+  "id": "36",
+  "title": "30",
+  "author": "31",
+  "genre": "32",
   "owner": "1",
   "isAvailable": false,
-  "reviews": "25",
+  "reviews": "37",
   "image": null,
-  "ownerHistory": "26"
-},{
-  "title": "27",
-  "author": "28",
-  "genre": "24",
-  "owner": "1",
-  "isAvailable": false,
-  "reviews": "29",
-  "image": null,
-  "ownerHistory": "30"
-},{
-  "title": "31",
-  "author": "32",
-  "genre": "24",
-  "owner": "2",
-  "isAvailable": false,
-  "reviews": "33",
-  "image": null,
-  "ownerHistory": "34"
-},"Lord of the Rings","J.R.R. Tolkien","Fantasy",[],[
+  "ownerHistory": "38"
+},"126e4043-784b-4739-b704-62d4a4f2078e","Harry Potter","J.K. Rowling","Fantasy",{
+  "id": "4",
+  "username": "5",
+  "email": "6",
+  "password": "7",
+  "ownedBooks": "8"
+},[],[
+  "26"
+],"8d9944e8-01f9-4e4c-950d-59ef39d904a4","The Great Gatsby","F. Scott Fitzgerald","Classic",{
+  "id": "4",
+  "username": "5",
+  "email": "6",
+  "password": "7",
+  "ownedBooks": "8"
+},[],[
+  "33"
+],"92fb1537-604b-43d7-b076-aa66ae6c9161",[],[
   "1"
-],"Harry Potter","J.K. Rowling",[],[
-  "1"
-],"Game of Thrones","George R.R. Martin",[],[
-  "2"
 ]]
