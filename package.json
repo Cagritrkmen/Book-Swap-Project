@@ -11,8 +11,12 @@
   "author": "Cagri Turkmen <cagritrkmn33@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
     "colors": "^1.4.0",
+    "express": "^4.18.2",
     "flatted": "^3.2.7",
+    "pug": "^3.0.2",
     "uuid": "^9.0.0"
   }
 }

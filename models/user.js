@@ -17,12 +17,12 @@ class User {
             // Gelen parametre Book sınıfına ait değilse, onu Book nesnesine dönüştürüyoruz.
             book = Book.create(book);
         }
-    
+        
         if (!book.isAvailable) {
             console.log('Bu kitap maalesef şu anda sahiplenilmiş durumda.');
         } else {
             book.owner = this;
-            book.updateAvailability(false);
+            book.isAvailable = false;
             book.ownerHistory.push(this);
             this.ownedBooks.push(book);
         }

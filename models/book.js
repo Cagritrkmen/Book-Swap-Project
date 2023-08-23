@@ -1,6 +1,6 @@
 const uuid = require('uuid')
 class Book {
-    constructor(id= uuid.v4(),title, author, genre, owner=null, isAvailable =true,reviews=[],image=null,ownerHistory=[]) {
+    constructor(id= uuid.v4(),title, author, genre, owner=null, isAvailable = true,reviews=[],image=null,ownerHistory=[]) {
         this.id = id;
         this.title = title;
         this.author = author;
