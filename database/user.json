@@ -20,25 +20,28 @@
   "email": "16",
   "password": "17",
   "ownedBooks": "18"
-},"cd283e2a-922e-4c01-8971-13e468aec753","john","john@example.com","john123",[
-  "19",
-  "20",
-  "21"
-],"a43167e6-b47f-47d4-abd6-f03edf16e20d","cagri","cagri@example.com","securepassword",[],"cd5ab98a-ac24-4bc3-9854-37d0634827ba","zeynep","zeynep@example.com","zeyno",[],{
-  "id": "22",
-  "title": "23",
-  "author": "24",
-  "genre": "25",
-  "owner": "26",
+},"2788ba58-272d-439e-986f-e54ef6d26852","john","john@example.com","john123",[
+  "19"
+],"e39d4e3b-d6d0-4b90-a808-5b63da80e63d","cagri","cagri@example.com","securepassword",[
+  "20"
+],"634ced0a-e3fb-417f-914c-76b83e18a409","zeynep","zeynep@example.com","zeyno",[
+  "21",
+  "22"
+],{
+  "id": "23",
+  "title": "24",
+  "author": "25",
+  "genre": "26",
+  "owner": "27",
   "isAvailable": false,
-  "reviews": "27",
+  "reviews": "28",
   "image": null,
-  "ownerHistory": "28"
+  "ownerHistory": "29"
 },{
-  "id": "29",
-  "title": "30",
-  "author": "31",
-  "genre": "32",
+  "id": "30",
+  "title": "31",
+  "author": "32",
+  "genre": "26",
   "owner": "33",
   "isAvailable": false,
   "reviews": "34",
@@ -46,30 +49,48 @@
   "ownerHistory": "35"
 },{
   "id": "36",
-  "title": "30",
-  "author": "31",
-  "genre": "32",
-  "owner": "1",
+  "title": "37",
+  "author": "38",
+  "genre": "39",
+  "owner": "40",
   "isAvailable": false,
-  "reviews": "37",
+  "reviews": "41",
   "image": null,
-  "ownerHistory": "38"
-},"126e4043-784b-4739-b704-62d4a4f2078e","Harry Potter","J.K. Rowling","Fantasy",{
+  "ownerHistory": "42"
+},{
+  "id": "43",
+  "title": "44",
+  "author": "45",
+  "genre": "26",
+  "owner": "3",
+  "isAvailable": false,
+  "reviews": "46",
+  "image": null,
+  "ownerHistory": "47"
+},"89d48f1e-cde8-4dcc-9c46-81cfa8f92a39","Harry Potter","J.K. Rowling","Fantasy",{
   "id": "4",
   "username": "5",
   "email": "6",
   "password": "7",
   "ownedBooks": "8"
 },[],[
-  "26"
-],"8d9944e8-01f9-4e4c-950d-59ef39d904a4","The Great Gatsby","F. Scott Fitzgerald","Classic",{
-  "id": "4",
-  "username": "5",
-  "email": "6",
-  "password": "7",
-  "ownedBooks": "8"
+  "27"
+],"156e34f1-9395-4a9b-bb54-3e682b581646","Lord of the Rings","J.R.R. Tolkien",{
+  "id": "9",
+  "username": "10",
+  "email": "11",
+  "password": "12",
+  "ownedBooks": "13"
 },[],[
   "33"
-],"92fb1537-604b-43d7-b076-aa66ae6c9161",[],[
-  "1"
+],"572db8d4-8ac6-4523-af6d-b82eb3e30674","The Great Gatsby","F. Scott Fitzgerald","Classic",{
+  "id": "14",
+  "username": "15",
+  "email": "16",
+  "password": "17",
+  "ownedBooks": "18"
+},[],[
+  "40"
+],"d1bac788-6951-4bd3-b06d-ad06bc9a1fde","Game of Thrones","George R.R. Martin",[],[
+  "3"
 ]]

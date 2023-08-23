@@ -15,6 +15,9 @@ const user2 = User.create({ username: "cagri", email: 'cagri@example.com', passw
 const user3 = User.create({ username: "zeynep", email: 'zeynep@example.com', password: "zeyno" });
 
 user1.addOwnedBook(book1)
+user2.addOwnedBook(book2)
+user3.addOwnedBook(book3)
+
 
 
 

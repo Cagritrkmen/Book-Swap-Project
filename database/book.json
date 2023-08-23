@@ -18,39 +18,59 @@
   "title": "13",
   "author": "14",
   "genre": "8",
-  "owner": null,
-  "isAvailable": true,
-  "reviews": "15",
+  "owner": "15",
+  "isAvailable": false,
+  "reviews": "16",
   "image": null,
-  "ownerHistory": "16"
+  "ownerHistory": "17"
 },{
-  "id": "17",
-  "title": "18",
-  "author": "19",
-  "genre": "20",
-  "owner": null,
-  "isAvailable": true,
-  "reviews": "21",
+  "id": "18",
+  "title": "19",
+  "author": "20",
+  "genre": "21",
+  "owner": "22",
+  "isAvailable": false,
+  "reviews": "23",
   "image": null,
-  "ownerHistory": "22"
+  "ownerHistory": "24"
 },{
-  "id": "23",
-  "title": "24",
-  "author": "25",
+  "id": "25",
+  "title": "26",
+  "author": "27",
   "genre": "8",
   "owner": null,
   "isAvailable": true,
-  "reviews": "26",
+  "reviews": "28",
   "image": null,
-  "ownerHistory": "27"
-},"126e4043-784b-4739-b704-62d4a4f2078e","Harry Potter","J.K. Rowling","Fantasy",{
-  "id": "28",
-  "username": "29",
-  "email": "30",
-  "password": "31",
-  "ownedBooks": "32"
+  "ownerHistory": "29"
+},"89d48f1e-cde8-4dcc-9c46-81cfa8f92a39","Harry Potter","J.K. Rowling","Fantasy",{
+  "id": "30",
+  "username": "31",
+  "email": "32",
+  "password": "33",
+  "ownedBooks": "34"
 },[],[
   "9"
-],"aa851cd7-f0c0-4e64-b5cb-293fc6bca6e5","Lord of the Rings","J.R.R. Tolkien",[],[],"28775d95-7d06-4128-afc5-d5c2b237e382","The Great Gatsby","F. Scott Fitzgerald","Classic",[],[],"7ffd1858-cb0b-4517-9c58-073fc208511e","Game of Thrones","George R.R. Martin",[],[],"cd283e2a-922e-4c01-8971-13e468aec753","john","john@example.com","john123",[
+],"156e34f1-9395-4a9b-bb54-3e682b581646","Lord of the Rings","J.R.R. Tolkien",{
+  "id": "35",
+  "username": "36",
+  "email": "37",
+  "password": "38",
+  "ownedBooks": "39"
+},[],[
+  "15"
+],"572db8d4-8ac6-4523-af6d-b82eb3e30674","The Great Gatsby","F. Scott Fitzgerald","Classic",{
+  "id": "40",
+  "username": "41",
+  "email": "42",
+  "password": "43",
+  "ownedBooks": "44"
+},[],[
+  "22"
+],"d1bac788-6951-4bd3-b06d-ad06bc9a1fde","Game of Thrones","George R.R. Martin",[],[],"2788ba58-272d-439e-986f-e54ef6d26852","john","john@example.com","john123",[
   "1"
+],"e39d4e3b-d6d0-4b90-a808-5b63da80e63d","cagri","cagri@example.com","securepassword",[
+  "2"
+],"634ced0a-e3fb-417f-914c-76b83e18a409","zeynep","zeynep@example.com","zeyno",[
+  "3"
 ]]
