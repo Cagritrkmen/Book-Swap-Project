@@ -3,193 +3,280 @@
   "2",
   "3",
   "4",
-  "5"
+  "5",
+  "6"
 ],{
-  "id": "6",
-  "title": "7",
-  "author": "8",
-  "genre": "9",
-  "owner": "10",
+  "id": "7",
+  "title": "8",
+  "author": "9",
+  "genre": "10",
+  "owner": "11",
   "isAvailable": false,
-  "reviews": "11",
+  "reviews": "12",
   "image": null,
-  "ownerHistory": "12"
+  "ownerHistory": "13"
 },{
-  "id": "13",
-  "title": "14",
-  "author": "15",
-  "genre": "9",
-  "owner": "16",
+  "id": "14",
+  "title": "15",
+  "author": "16",
+  "genre": "10",
+  "owner": "17",
   "isAvailable": false,
-  "reviews": "17",
+  "reviews": "18",
   "image": null,
-  "ownerHistory": "18"
+  "ownerHistory": "19"
 },{
-  "id": "19",
-  "title": "20",
-  "author": "21",
-  "genre": "22",
-  "owner": "23",
+  "id": "20",
+  "title": "21",
+  "author": "22",
+  "genre": "23",
+  "owner": "24",
   "isAvailable": false,
-  "reviews": "24",
+  "reviews": "25",
   "image": null,
-  "ownerHistory": "25"
+  "ownerHistory": "26"
 },{
-  "id": "26",
-  "title": "27",
-  "author": "28",
-  "genre": "9",
-  "owner": "29",
+  "id": "27",
+  "title": "28",
+  "author": "29",
+  "genre": "10",
+  "owner": "30",
   "isAvailable": false,
-  "reviews": "30",
+  "reviews": "31",
   "image": null,
-  "ownerHistory": "31"
+  "ownerHistory": "32"
 },{
-  "id": "32",
-  "title": "33",
-  "author": "34",
-  "genre": "35",
-  "owner": "36",
-  "isAvailable": false,
+  "id": "33",
+  "title": "34",
+  "author": "35",
+  "genre": "36",
+  "owner": null,
+  "isAvailable": true,
   "reviews": "37",
   "image": null,
   "ownerHistory": "38"
-},"b6fe8f1b-c9ea-4474-aee8-d7299a0beede","Harry Potter","J.K. Rowling","Fantasy",{
+},{
   "id": "39",
-  "username": "40",
-  "email": "41",
-  "password": "42",
-  "ownedBooks": "43"
-},[],[
-  "10"
-],"8ceaa9ec-95fd-450c-914c-b266b9c32393","Lord of the Rings","J.R.R. Tolkien",{
+  "title": "40",
+  "author": "41",
+  "genre": "36",
+  "owner": null,
+  "isAvailable": true,
+  "reviews": "42",
+  "image": null,
+  "ownerHistory": "43"
+},"b6fe8f1b-c9ea-4474-aee8-d7299a0beede","Harry Potter","J.K. Rowling","Fantasy",{
   "id": "44",
   "username": "45",
   "email": "46",
   "password": "47",
   "ownedBooks": "48"
 },[],[
-  "16"
-],"bc3a281c-33b6-457b-b255-c4a200f1ed43","The Great Gatsby","F. Scott Fitzgerald","Classic",{
+  "11"
+],"8ceaa9ec-95fd-450c-914c-b266b9c32393","Lord of the Rings","J.R.R. Tolkien",{
   "id": "49",
   "username": "50",
   "email": "51",
   "password": "52",
   "ownedBooks": "53"
 },[],[
-  "23"
-],"9567c070-8b20-437d-8a82-92cdd336729b","Game of Thrones","George R.R. Martin",{
-  "id": "39",
-  "username": "40",
-  "email": "41",
-  "password": "42",
-  "ownedBooks": "54"
+  "17"
+],"bc3a281c-33b6-457b-b255-c4a200f1ed43","The Great Gatsby","F. Scott Fitzgerald","Classic",{
+  "id": "54",
+  "username": "55",
+  "email": "56",
+  "password": "57",
+  "ownedBooks": "58"
 },[],[
-  "29"
-],"329f6924-d393-4c5d-a0c4-535d37dd445d","To Kill a Mockingbird","Harper Lee","Fiction",{
+  "24"
+],"9567c070-8b20-437d-8a82-92cdd336729b","Game of Thrones","George R.R. Martin",{
   "id": "44",
   "username": "45",
   "email": "46",
   "password": "47",
-  "ownedBooks": "55"
+  "ownedBooks": "59"
 },[],[
-  "36"
-],"efc6708d-a4b5-46d9-8f36-f17c364cc87e","john","john@example.com","john123",[
-  "56"
-],"be29c6c3-12cf-4573-b3b0-1afcbe8de7df","cagri","cagri@example.com","securepassword",[
-  "57"
-],"ce3b4d59-43ee-49ba-92f8-4ed6e7f0997e","zeynep","zeynep@example.com","zeyno",[
-  "58"
-],[
-  "59",
-  "60"
-],[
+  "30"
+],"329f6924-d393-4c5d-a0c4-535d37dd445d","To Kill a Mockingbird","Harper Lee","Fiction",[],[
+  "60",
   "61",
   "62"
+],"0027d9e1-92eb-4eb8-a6ea-0e843b0ef22b","The Catcher in the Rye","J.D. Salinger",[],[],"efc6708d-a4b5-46d9-8f36-f17c364cc87e","john","john@example.com","john123",[
+  "63"
+],"be29c6c3-12cf-4573-b3b0-1afcbe8de7df","cagri","cagri@example.com","securepassword",[
+  "64"
+],"ce3b4d59-43ee-49ba-92f8-4ed6e7f0997e","zeynep","zeynep@example.com","zeyno",[
+  "65"
+],[
+  "66",
+  "67"
 ],{
-  "id": "6",
-  "title": "7",
-  "author": "8",
-  "genre": "9",
-  "owner": "10",
-  "isAvailable": false,
-  "reviews": "11",
-  "image": null,
-  "ownerHistory": "12"
+  "id": "49",
+  "username": "50",
+  "email": "51",
+  "password": "52",
+  "ownedBooks": "68"
 },{
-  "id": "13",
-  "title": "14",
-  "author": "15",
-  "genre": "9",
-  "owner": "16",
-  "isAvailable": false,
-  "reviews": "17",
-  "image": null,
-  "ownerHistory": "18"
+  "id": "49",
+  "username": "50",
+  "email": "51",
+  "password": "52",
+  "ownedBooks": "69"
 },{
-  "id": "19",
-  "title": "20",
-  "author": "21",
-  "genre": "22",
-  "owner": "23",
-  "isAvailable": false,
-  "reviews": "24",
-  "image": null,
-  "ownerHistory": "25"
+  "id": "49",
+  "username": "50",
+  "email": "51",
+  "password": "52",
+  "ownedBooks": "70"
 },{
-  "id": "6",
-  "title": "7",
-  "author": "8",
-  "genre": "9",
-  "owner": "63",
+  "id": "7",
+  "title": "8",
+  "author": "9",
+  "genre": "10",
+  "owner": "11",
   "isAvailable": false,
-  "reviews": "64",
+  "reviews": "12",
   "image": null,
-  "ownerHistory": "65"
+  "ownerHistory": "13"
 },{
-  "id": "26",
-  "title": "27",
-  "author": "28",
-  "genre": "9",
-  "owner": "29",
+  "id": "14",
+  "title": "15",
+  "author": "16",
+  "genre": "10",
+  "owner": "17",
   "isAvailable": false,
-  "reviews": "30",
+  "reviews": "18",
   "image": null,
-  "ownerHistory": "31"
+  "ownerHistory": "19"
 },{
-  "id": "13",
-  "title": "14",
-  "author": "15",
-  "genre": "9",
-  "owner": "66",
+  "id": "20",
+  "title": "21",
+  "author": "22",
+  "genre": "23",
+  "owner": "24",
   "isAvailable": false,
-  "reviews": "67",
+  "reviews": "25",
   "image": null,
-  "ownerHistory": "68"
+  "ownerHistory": "26"
 },{
-  "id": "32",
-  "title": "33",
-  "author": "34",
-  "genre": "35",
-  "owner": "36",
+  "id": "7",
+  "title": "8",
+  "author": "9",
+  "genre": "10",
+  "owner": "71",
+  "isAvailable": false,
+  "reviews": "72",
+  "image": null,
+  "ownerHistory": "73"
+},{
+  "id": "27",
+  "title": "28",
+  "author": "29",
+  "genre": "10",
+  "owner": "30",
+  "isAvailable": false,
+  "reviews": "31",
+  "image": null,
+  "ownerHistory": "32"
+},[
+  "74",
+  "75"
+],[
+  "76",
+  "77"
+],[
+  "78",
+  "79"
+],{
+  "id": "44",
+  "username": "45",
+  "email": "46",
+  "password": "47",
+  "ownedBooks": "59"
+},[],[
+  "71"
+],{
+  "id": "14",
+  "title": "15",
+  "author": "16",
+  "genre": "10",
+  "owner": "80",
+  "isAvailable": false,
+  "reviews": "81",
+  "image": null,
+  "ownerHistory": "82"
+},{
+  "id": "33",
+  "title": "34",
+  "author": "35",
+  "genre": "36",
+  "owner": "60",
   "isAvailable": false,
   "reviews": "37",
   "image": null,
   "ownerHistory": "38"
 },{
-  "id": "39",
-  "username": "40",
-  "email": "41",
-  "password": "42",
-  "ownedBooks": "54"
+  "id": "14",
+  "title": "15",
+  "author": "16",
+  "genre": "10",
+  "owner": "83",
+  "isAvailable": false,
+  "reviews": "84",
+  "image": null,
+  "ownerHistory": "85"
+},{
+  "id": "33",
+  "title": "34",
+  "author": "35",
+  "genre": "36",
+  "owner": "61",
+  "isAvailable": false,
+  "reviews": "37",
+  "image": null,
+  "ownerHistory": "38"
+},{
+  "id": "14",
+  "title": "15",
+  "author": "16",
+  "genre": "10",
+  "owner": "86",
+  "isAvailable": false,
+  "reviews": "87",
+  "image": null,
+  "ownerHistory": "88"
+},{
+  "id": "33",
+  "title": "34",
+  "author": "35",
+  "genre": "36",
+  "owner": "62",
+  "isAvailable": false,
+  "reviews": "37",
+  "image": null,
+  "ownerHistory": "38"
+},{
+  "id": "49",
+  "username": "50",
+  "email": "51",
+  "password": "52",
+  "ownedBooks": "68"
 },[],[
-  "63"
+  "80"
 ],{
-  "id": "44",
-  "username": "45",
-  "email": "46",
-  "password": "47",
-  "ownedBooks": "55"
+  "id": "49",
+  "username": "50",
+  "email": "51",
+  "password": "52",
+  "ownedBooks": "69"
 },[],[
-  "66"
+  "83"
+],{
+  "id": "49",
+  "username": "50",
+  "email": "51",
+  "password": "52",
+  "ownedBooks": "70"
+},[],[
+  "86"
 ]]

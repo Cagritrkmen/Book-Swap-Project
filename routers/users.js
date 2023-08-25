@@ -29,6 +29,17 @@ router.post("/:userId/addUserBooks",async(req,res)=>{
     await bookDatabase.update(book)
     res.send("Ok")
 })
+router.post("/:userId/removeUserBooks",async(req,res)=>{
+    const {userId} = req.params
+    const {bookId}= req.body
+    const user = await userDatabase.find(userId)
+    const book= await bookDatabase.find(bookId)
+
+    user.removeOwnedBook(book)
+    await userDatabase.update(user)
+    await bookDatabase.update(book)
+    res.send("Ok")
+})
 
 router.get("/:userId",async(req,res)=>{
     const user = await userDatabase.find(req.params.userId)

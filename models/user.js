@@ -12,9 +12,9 @@ class User {
     }
 
 
-    async addOwnedBook(book) {
+    addOwnedBook(book) {
         if (!(book instanceof Book)) {
-            // Parametre olarak gelen kitabı kullanarak yeni bir Book nesnesi oluşturuyoruz.
+            
             const newBook = new Book(book.id, book.title, book.author, book.genre, book.isAvailable, book.reviews, book.image, book.ownerHistory);
     
             book = newBook;
@@ -34,10 +34,12 @@ class User {
 
     removeOwnedBook(book) {
         if (!(book instanceof Book)) {
-            // Gelen parametre Book sınıfına ait değilse, onu Book nesnesine dönüştürüyoruz.
-            book = Book.create(book);
+            const newBook = new Book(book.id, book.title, book.author, book.genre, book.isAvailable, book.reviews, book.image, book.ownerHistory);
+    
+            book = newBook;
         }
         book.updateAvailability(true);
+        book.owner= null
         const foundBook = this.ownedBooks.find((o)=>o.id ==book.id);
         const index = this.ownedBooks.indexOf(foundBook)
         if (index !== -1) {
