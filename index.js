@@ -2,6 +2,7 @@ const express = require("express")
 const bodyParser = require('body-parser')
 const userRouter = require("./routers/users")
 const indexRouter =require("./routers/index")
+const bookRouter = require("./routers/books")
 
 
 
@@ -11,6 +12,8 @@ app.use(bodyParser.json())
 app.set("view engine", "pug")
 
 app.use("/users", userRouter)
+
+app.use("/books",bookRouter)
 
 app.use("/",indexRouter)
 

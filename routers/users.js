@@ -18,7 +18,7 @@ router.delete("/:userId", async(req,res)=>{
     res.send("Ok")
 })
 
-router.post("/:userId/userBooks",async(req,res)=>{
+router.post("/:userId/addUserBooks",async(req,res)=>{
     const {userId} = req.params
     const {bookId}= req.body
     const user = await userDatabase.find(userId)
@@ -26,6 +26,7 @@ router.post("/:userId/userBooks",async(req,res)=>{
 
     user.addOwnedBook(book)
     await userDatabase.update(user)
+    await bookDatabase.update(book)
     res.send("Ok")
 })
 

@@ -20,38 +20,39 @@
   "email": "16",
   "password": "17",
   "ownedBooks": "18"
-},"2788ba58-272d-439e-986f-e54ef6d26852","john","john@example.com","john123",[
-  "19"
-],"e39d4e3b-d6d0-4b90-a808-5b63da80e63d","cagri","cagri@example.com","securepassword",[
+},"efc6708d-a4b5-46d9-8f36-f17c364cc87e","john","john@example.com","john123",[
+  "19",
   "20"
-],"634ced0a-e3fb-417f-914c-76b83e18a409","zeynep","zeynep@example.com","zeyno",[
+],"be29c6c3-12cf-4573-b3b0-1afcbe8de7df","cagri","cagri@example.com","securepassword",[
   "21",
   "22"
+],"ce3b4d59-43ee-49ba-92f8-4ed6e7f0997e","zeynep","zeynep@example.com","zeyno",[
+  "23"
 ],{
-  "id": "23",
-  "title": "24",
-  "author": "25",
-  "genre": "26",
-  "owner": "27",
+  "id": "24",
+  "title": "25",
+  "author": "26",
+  "genre": "27",
+  "owner": "28",
   "isAvailable": false,
-  "reviews": "28",
+  "reviews": "29",
   "image": null,
-  "ownerHistory": "29"
+  "ownerHistory": "30"
 },{
-  "id": "30",
-  "title": "31",
-  "author": "32",
-  "genre": "26",
-  "owner": "33",
+  "id": "31",
+  "title": "32",
+  "author": "33",
+  "genre": "27",
+  "owner": "34",
   "isAvailable": false,
-  "reviews": "34",
+  "reviews": "35",
   "image": null,
-  "ownerHistory": "35"
+  "ownerHistory": "36"
 },{
-  "id": "36",
-  "title": "37",
-  "author": "38",
-  "genre": "39",
+  "id": "37",
+  "title": "38",
+  "author": "39",
+  "genre": "27",
   "owner": "40",
   "isAvailable": false,
   "reviews": "41",
@@ -61,36 +62,60 @@
   "id": "43",
   "title": "44",
   "author": "45",
-  "genre": "26",
-  "owner": "3",
+  "genre": "46",
+  "owner": "47",
   "isAvailable": false,
-  "reviews": "46",
+  "reviews": "48",
   "image": null,
-  "ownerHistory": "47"
-},"89d48f1e-cde8-4dcc-9c46-81cfa8f92a39","Harry Potter","J.K. Rowling","Fantasy",{
+  "ownerHistory": "49"
+},{
+  "id": "50",
+  "title": "51",
+  "author": "52",
+  "genre": "53",
+  "owner": "54",
+  "isAvailable": false,
+  "reviews": "55",
+  "image": null,
+  "ownerHistory": "56"
+},"b6fe8f1b-c9ea-4474-aee8-d7299a0beede","Harry Potter","J.K. Rowling","Fantasy",{
   "id": "4",
   "username": "5",
   "email": "6",
   "password": "7",
   "ownedBooks": "8"
 },[],[
-  "27"
-],"156e34f1-9395-4a9b-bb54-3e682b581646","Lord of the Rings","J.R.R. Tolkien",{
+  "28"
+],"9567c070-8b20-437d-8a82-92cdd336729b","Game of Thrones","George R.R. Martin",{
+  "id": "4",
+  "username": "5",
+  "email": "6",
+  "password": "7",
+  "ownedBooks": "8"
+},[],[
+  "34"
+],"8ceaa9ec-95fd-450c-914c-b266b9c32393","Lord of the Rings","J.R.R. Tolkien",{
   "id": "9",
   "username": "10",
   "email": "11",
   "password": "12",
   "ownedBooks": "13"
 },[],[
-  "33"
-],"572db8d4-8ac6-4523-af6d-b82eb3e30674","The Great Gatsby","F. Scott Fitzgerald","Classic",{
+  "40"
+],"329f6924-d393-4c5d-a0c4-535d37dd445d","To Kill a Mockingbird","Harper Lee","Fiction",{
+  "id": "9",
+  "username": "10",
+  "email": "11",
+  "password": "12",
+  "ownedBooks": "13"
+},[],[
+  "47"
+],"bc3a281c-33b6-457b-b255-c4a200f1ed43","The Great Gatsby","F. Scott Fitzgerald","Classic",{
   "id": "14",
   "username": "15",
   "email": "16",
   "password": "17",
   "ownedBooks": "18"
 },[],[
-  "40"
-],"d1bac788-6951-4bd3-b06d-ad06bc9a1fde","Game of Thrones","George R.R. Martin",[],[
-  "3"
+  "54"
 ]]

@@ -12,10 +12,12 @@ class User {
     }
 
 
-    addOwnedBook(book) {
+    async addOwnedBook(book) {
         if (!(book instanceof Book)) {
-            // Gelen parametre Book sınıfına ait değilse, onu Book nesnesine dönüştürüyoruz.
-            book = Book.create(book);
+            // Parametre olarak gelen kitabı kullanarak yeni bir Book nesnesi oluşturuyoruz.
+            const newBook = new Book(book.id, book.title, book.author, book.genre, book.isAvailable, book.reviews, book.image, book.ownerHistory);
+    
+            book = newBook;
         }
         
         if (!book.isAvailable) {

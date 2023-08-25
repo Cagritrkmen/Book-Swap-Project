@@ -1,0 +1,15 @@
+extends layout 
+block content
+
+    h2 Books
+    p There are #{books.length} book in the app.
+    h2 Sahiplenmiş kitaplar
+    each book in books 
+        if book.isAvailable == false 
+            li
+                a(href=`/books/${book.id}`) #{book.title}  
+    h2 Sahiplenmemiş kitaplar
+    each book in books 
+        if book.isAvailable == true 
+            li
+                a(href=`/books/${book.id}`) #{book.title}  
