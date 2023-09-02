@@ -1,0 +1,17 @@
+POST http://localhost:3000/users HTTP/1.1
+content-type: application/json
+
+{"username":"cagri", "email": "armo@gmail.com","password": "12345"}  
+
+
+###
+GET http://localhost:3000/users/64f3347294f54bfa5355a5b4 HTTP/1.1
+###
+
+DELETE http://localhost:3000/users/64f3245d94f54bfa5355a5ab HTTP/1.1
+
+###
+PATCH http://localhost:3000/users/64f3347294f54bfa5355a5b4 HTTP/1.1
+content-type: application/json
+
+{"username": "new name4"}

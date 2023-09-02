@@ -1,47 +1,44 @@
 [[
   "1",
   "2",
-  "3"
+  "3",
+  "4"
 ],{
-  "id": "4",
-  "username": "5",
-  "email": "6",
-  "password": "7",
-  "ownedBooks": "8"
+  "id": "5",
+  "username": "6",
+  "email": "7",
+  "password": "8",
+  "ownedBooks": "9"
 },{
-  "id": "9",
-  "username": "10",
-  "email": "11",
-  "password": "12",
-  "ownedBooks": "13"
+  "id": "10",
+  "username": "11",
+  "email": "12",
+  "password": "13",
+  "ownedBooks": "14"
 },{
-  "id": "14",
-  "username": "15",
-  "email": "16",
-  "password": "17",
-  "ownedBooks": "18"
+  "id": "15",
+  "username": "16",
+  "email": "17",
+  "password": "18",
+  "ownedBooks": "19"
+},{
+  "id": "20",
+  "username": "21",
+  "email": "22",
+  "password": "23",
+  "ownedBooks": "24"
 },"efc6708d-a4b5-46d9-8f36-f17c364cc87e","john","john@example.com","john123",[
-  "19",
-  "20"
+  "25",
+  "26"
 ],"be29c6c3-12cf-4573-b3b0-1afcbe8de7df","cagri","cagri@example.com","securepassword",[
-  "21"
+  "27"
 ],"ce3b4d59-43ee-49ba-92f8-4ed6e7f0997e","zeynep","zeynep@example.com","zeyno",[
-  "22"
-],{
-  "id": "23",
-  "title": "24",
-  "author": "25",
-  "genre": "26",
-  "owner": "27",
-  "isAvailable": false,
-  "reviews": "28",
-  "image": null,
-  "ownerHistory": "29"
-},{
-  "id": "30",
-  "title": "31",
-  "author": "32",
-  "genre": "26",
+  "28"
+],"22517b00-df16-4177-84e6-1e767069f223","armagan","armo@gmail.com","12345",[],{
+  "id": "29",
+  "title": "30",
+  "author": "31",
+  "genre": "32",
   "owner": "33",
   "isAvailable": false,
   "reviews": "34",
@@ -51,7 +48,7 @@
   "id": "36",
   "title": "37",
   "author": "38",
-  "genre": "26",
+  "genre": "32",
   "owner": "39",
   "isAvailable": false,
   "reviews": "40",
@@ -61,42 +58,52 @@
   "id": "42",
   "title": "43",
   "author": "44",
-  "genre": "45",
-  "owner": "46",
+  "genre": "32",
+  "owner": "45",
   "isAvailable": false,
-  "reviews": "47",
+  "reviews": "46",
   "image": null,
-  "ownerHistory": "48"
+  "ownerHistory": "47"
+},{
+  "id": "48",
+  "title": "49",
+  "author": "50",
+  "genre": "51",
+  "owner": "52",
+  "isAvailable": false,
+  "reviews": "53",
+  "image": null,
+  "ownerHistory": "54"
 },"b6fe8f1b-c9ea-4474-aee8-d7299a0beede","Harry Potter","J.K. Rowling","Fantasy",{
-  "id": "4",
-  "username": "5",
-  "email": "6",
-  "password": "7",
-  "ownedBooks": "8"
-},[],[
-  "27"
-],"9567c070-8b20-437d-8a82-92cdd336729b","Game of Thrones","George R.R. Martin",{
-  "id": "4",
-  "username": "5",
-  "email": "6",
-  "password": "7",
-  "ownedBooks": "8"
+  "id": "5",
+  "username": "6",
+  "email": "7",
+  "password": "8",
+  "ownedBooks": "9"
 },[],[
   "33"
-],"8ceaa9ec-95fd-450c-914c-b266b9c32393","Lord of the Rings","J.R.R. Tolkien",{
-  "id": "9",
-  "username": "10",
-  "email": "11",
-  "password": "12",
-  "ownedBooks": "13"
+],"9567c070-8b20-437d-8a82-92cdd336729b","Game of Thrones","George R.R. Martin",{
+  "id": "5",
+  "username": "6",
+  "email": "7",
+  "password": "8",
+  "ownedBooks": "9"
 },[],[
   "39"
-],"bc3a281c-33b6-457b-b255-c4a200f1ed43","The Great Gatsby","F. Scott Fitzgerald","Classic",{
-  "id": "14",
-  "username": "15",
-  "email": "16",
-  "password": "17",
-  "ownedBooks": "18"
+],"8ceaa9ec-95fd-450c-914c-b266b9c32393","Lord of the Rings","J.R.R. Tolkien",{
+  "id": "10",
+  "username": "11",
+  "email": "12",
+  "password": "13",
+  "ownedBooks": "14"
 },[],[
-  "46"
+  "45"
+],"bc3a281c-33b6-457b-b255-c4a200f1ed43","The Great Gatsby","F. Scott Fitzgerald","Classic",{
+  "id": "15",
+  "username": "16",
+  "email": "17",
+  "password": "18",
+  "ownedBooks": "19"
+},[],[
+  "52"
 ]]

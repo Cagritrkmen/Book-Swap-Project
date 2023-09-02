@@ -9,12 +9,11 @@ router.get("/",async(req,res)=>{
     res.render("users",{users})
 })
 router.post("/",async (req,res)=>{
-    const user = User.create(req.body)
-    await userDatabase.insert(user)
+    const user = await userDatabase.insert(req.body)
     res.send(user)
 })
 router.delete("/:userId", async(req,res)=>{
-    await userDatabase.removeBy("id",req.params.userId)
+    await userDatabase.removeBy("_id",req.params.userId)
     res.send("Ok")
 })
 
@@ -45,6 +44,12 @@ router.get("/:userId",async(req,res)=>{
     const user = await userDatabase.find(req.params.userId)
     if(!user) return res.status(404).send("Cannot find user")
     res.render("user",{user})
+})
+
+router.patch("/:userId",async(req,res)=>{
+    const {username} = req.body
+    const {userId} = req.params
+    await userDatabase.update(userId,{username})
 })
 
 module.exports = router
