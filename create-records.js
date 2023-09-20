@@ -1,5 +1,5 @@
 
-const { userDatabase, bookDatabase } = require('./database')
+const { userService, bookService } = require('./service')
 const Book = require('./models/book');
 const User = require('./models/user');
 const { printUsersBook, printBooks } = require('./lib/print')
@@ -25,11 +25,11 @@ user3.addOwnedBook(book3)
 
 async function main() {
     try {
-        await bookDatabase.save([book1, book2, book3, book4])
-        const books = await bookDatabase.load()
+        await bookService.save([book1, book2, book3, book4])
+        const books = await bookService.load()
         books.forEach(printBooks)
-        await userDatabase.save([user1, user2, user3])
-        const users = await userDatabase.load()
+        await userService.save([user1, user2, user3])
+        const users = await userService.load()
         users.forEach(printUsersBook)
     } catch (e) {
         return console.log(e)

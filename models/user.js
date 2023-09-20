@@ -1,5 +1,5 @@
 // const uuid = require('uuid')
-// const Book = require("./book")
+const Book = require("./book")
 const mongoose = require("mongoose")
 
 const UserSchema = new mongoose.Schema({
@@ -7,40 +7,17 @@ const UserSchema = new mongoose.Schema({
     email: String,
     password: String,
     image: String,
-    ownedBooks: []
+    ownedBooks: [{
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Book",
+        autopopulate: {maxDepth: 1}
+    }]
 })
 
+UserSchema.plugin(require('mongoose-autopopulate'));
 module.exports = mongoose.model("User",UserSchema)
 
-// class User {
-//     constructor(id = uuid.v4(), username, email, password,image,ownedBooks= []) {
-//         this.id = id
-//         this.username = username;
-//         this.email = email;
-//         this.password = password;
-//         this.image = image;
-//         this.ownedBooks = ownedBooks;
 
-//     }
-
-
-//     addOwnedBook(book) {
-//         if (!(book instanceof Book)) {
-            
-//             const newBook = new Book(book.id, book.title, book.author, book.genre, book.isAvailable, book.reviews, book.image, book.ownerHistory);
-    
-//             book = newBook;
-//         }
-        
-//         if (!book.isAvailable) {
-//             console.log('Bu kitap maalesef şu anda sahiplenilmiş durumda.');
-//         } else {
-//             book.owner = this;
-//             book.isAvailable = false;
-//             book.ownerHistory.push(this);
-//             this.ownedBooks.push(book);
-//         }
-//     }
     
     
 
