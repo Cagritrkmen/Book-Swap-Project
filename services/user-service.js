@@ -40,6 +40,21 @@ class UserService extends BaseService {
         await book.save()
         return user
     }
+    async addReview(userId,bookId,review){
+        const user = await this.find(userId)
+        const book= await bookService.find(bookId)
+        const ids = []
+        book.ownerHistory.forEach(user=> ids.push(user.id))
+        console.log(ids)
+        if (ids.includes(userId)) {
+            book.reviews.push([user.username, review]);
+        }
+        else {
+            console.log("önceden sahiplenilmemiş kitaplara yorum yapılamaz.")
+        }
+        await user.save()
+        await book.save()
+    }
 }
 
 module.exports = new UserService(User)

@@ -5,7 +5,7 @@ content-type: application/json
 
 
 ###
-GET http://localhost:3000/users/650332d6f1c6b7d678264c0c HTTP/1.1
+GET http://localhost:3000/users/650332abf1c6b7d678264a8d HTTP/1.1
 ###
 
 DELETE http://localhost:3000/users/6502e5d2cfd8dccea5673e03 HTTP/1.1
@@ -43,4 +43,11 @@ content-type: application/json
 DELETE http://localhost:3000/users/650332d6f1c6b7d678264c0c/removeBookFromUser HTTP/1.1
 content-type: application/json
 
-{"bookId": "650848e813a1a291eed38e05"}
+{"bookId": "650848e813a1a291eed38e05"} 
+
+###
+POST http://localhost:3000/users/650332d6f1c6b7d678264c0c/addReviewToBook HTTP/1.1
+content-type: application/json
+
+{"bookId": "650848e813a1a291eed38e05",
+    "review": "Çok iyi bir kitaptı."  }

@@ -43,4 +43,12 @@ router.patch("/:userId",async(req,res)=>{
     await userService.update(userId,{username})
 })
 
+router.post("/:userId/addReviewToBook", async(req,res)=>{
+    const {userId} = req.params
+    const {bookId}= req.body
+    const {review} = req.body
+    await userService.addReview(userId,bookId,review)
+    res.send("Ok")
+})
+
 module.exports = router
