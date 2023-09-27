@@ -50,4 +50,4 @@ POST http://localhost:3000/users/650332d6f1c6b7d678264c0c/addReviewToBook HTTP/1
 content-type: application/json
 
 {"bookId": "650848e813a1a291eed38e05",
-    "review": "Çok iyi bir kitaptı."  }
+    "review": "Çok iyi bir kitaptıı."  }
