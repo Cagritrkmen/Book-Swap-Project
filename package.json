@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "watch": "nodemon --ignore *.json",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test-watch":"jest --watch"
   },
   "author": "Cagri Turkmen <cagritrkmn33@gmail.com>",
   "license": "ISC",
@@ -20,5 +21,8 @@
     "mongoose-autopopulate": "^1.0.1",
     "pug": "^3.0.2",
     "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }

@@ -35,12 +35,12 @@ content-type: application/json
 {"title": "GOTGOTGOT"}
 ###
 
-POST http://localhost:3000/users/650332abf1c6b7d678264a8d/ownBookToUser HTTP/1.1
+POST http://localhost:3000/users/65144c1f8b0d5ba13e61455a/ownBookToUser HTTP/1.1
 content-type: application/json
 
-{"bookId": "650848e813a1a291eed38e05"}
+{"bookId": "6514444bdfbbd5b89155ae12"}
 ###
-DELETE http://localhost:3000/users/650332d6f1c6b7d678264c0c/removeBookFromUser HTTP/1.1
+POST http://localhost:3000/users/650332d6f1c6b7d678264c0c/removeBookFromUser HTTP/1.1
 content-type: application/json
 
 {"bookId": "650848e813a1a291eed38e05"} 
