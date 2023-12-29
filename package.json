@@ -4,10 +4,10 @@
   "description": "A book exchange application",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "watch": "nodemon --ignore *.json",
-    "test": "jest",
-    "test-watch":"jest --watch"
+    "start": "node .bin/www",
+    "watch": "nodemon --ignore *.json .bin/www" ,
+    "test": "jest --verbose",
+    "test-watch": "jest --verbose --watch"
   },
   "author": "Cagri Turkmen <cagritrkmn33@gmail.com>",
   "license": "ISC",
@@ -23,6 +23,7 @@
     "uuid": "^9.0.0"
   },
   "devDependencies": {
-    "jest": "^29.7.0"
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
   }
 }

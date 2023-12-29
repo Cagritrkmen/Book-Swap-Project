@@ -19,6 +19,6 @@ app.use("/",indexRouter)
 
 
 
-app.listen(3000, ()=>{
-    console.log("started listening on 3000")
-})
+
+
+module.exports = app
